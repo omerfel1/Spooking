@@ -1,10 +1,11 @@
 
 import discord
 import asyncio
-import youtube_dl
 from discord.ext import commands
 from discord.ext.commands import Bot
 from discord.utils import get
+import time
+import os
 prefix = "?"
 TOKEN = 'NTY3MDg3NjY1ODEyNjAyODgw.XLObow.qMmmMxcU4UIcVZsXjHnFl_Yx5bw'
 Client = commands.Bot(command_prefix=prefix)
