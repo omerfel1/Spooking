@@ -15,7 +15,7 @@ players= {}
 
 @client.event
 async def on_message(message):
-    if message.content.startswith("?staff"):
+    if message.content.startswith("?try"):
         channel= client.get_channel("567314641424744479")
         msg = "!"+ "צריך עזרה"+" "+f"{message.author.mention}"+" " + "," + "<@&567322434911338516> <@&540590820085202974> <@&540590875881766912> <@&547499780176085003> ".format(message)
         msg2 = "`Waiting For Staff`"+" "+"בשביל לקבל עזרה המתן בחדר" .format(message)
